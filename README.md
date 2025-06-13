@@ -32,14 +32,14 @@ public/ directory: Contains static assets served directly by the web server.
 
 src/ directory: Contains the core React application source code.
 
-* **`App.js:` The main component orchestrating the entire Todo application. It manages the global state and passes data/functions to child components.
-* **`App.css:` Contains global styling for the application, enhancing its visual appeal.
-* **`index.js:` The entry point of the React application. It's responsible for importing necessary libraries (React, ReactDOM), finding the HTML element (<div id="root">) where the app should be mounted, and rendering the main App component into it.
-* **`TodoClear.js:` Manages the functionality for clearing all completed tasks from the list.
-* **`TodoDone.js:` Handles the logic and UI for adding new tasks to the list.
-* **`TodoInputes.js:` Represents a single todo item, handling actions like marking as completed and deleting individual tasks.
-* **`TodoLine.js:` Responsible for rendering the entire list of todo items, iterating over the task data and passing individual task props to TodoInputes.js.
-* **`package.json:` This file lists the project's metadata, dependencies, and scripts, essential for managing the project's environment.
+* **`App.js:`** The main component orchestrating the entire Todo application. It manages the global state and passes data/functions to child components.
+* **`App.css:`** Contains global styling for the application, enhancing its visual appeal.
+* **`index.js:`** The entry point of the React application. It's responsible for importing necessary libraries (React, ReactDOM), finding the HTML element (<div id="root">) where the app should be mounted, and rendering the main App component into it.
+* **`TodoClear.js:`** Manages the functionality for clearing all completed tasks from the list.
+* **`TodoDone.js:`** Handles the logic and UI for adding new tasks to the list.
+* **`TodoInputes.js:`** Represents a single todo item, handling actions like marking as completed and deleting individual tasks.
+* **`TodoLine.js:`** Responsible for rendering the entire list of todo items, iterating over the task data and passing individual task props to TodoInputes.js.
+* **`package.json:`** This file lists the project's metadata, dependencies, and scripts, essential for managing the project's environment.
 
 ---
 
